@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'agin-site';
-  infos = [{"a":1},{"a":1},{"a":1}];
+  infos = [{"a":1}, {"a":2}];
 }
 
