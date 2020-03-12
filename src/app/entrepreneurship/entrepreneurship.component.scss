@@ -58,3 +58,11 @@ color: #555555;
     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
 }
+
+.footer-conf {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
