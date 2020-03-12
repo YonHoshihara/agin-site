@@ -14,7 +14,7 @@ import { NewbusinesComponent } from './newbusines/newbusines.component';
 import { TecnologyComponent } from './tecnology/tecnology.component';
 import { NewsComponent } from './news/news.component';
 import { EdictsComponent } from './edicts/edicts.component';
-
+import { from } from 'rxjs';
 @NgModule({
   declarations: [
     AppComponent,

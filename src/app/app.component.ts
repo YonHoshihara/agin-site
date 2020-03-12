@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import {AppRoutingModule} from './app-routing.module';
+import { from } from 'rxjs';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

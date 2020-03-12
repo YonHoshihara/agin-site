@@ -1,11 +1,60 @@
-.content {
-    display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
-    max-width: 960px;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ddd;
-    padding: 10px;
-    height: 200px; /* Should be removed. Only for demonstration */
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 100px;
+}
+.card-costumization-1
+{
+background-color:whitesmoke; 
+border-color: white; 
+border-radius: 5pt;
+margin-bottom: 30px;
+width: 50rem;
+
+
+}
+
+.nav-a{
+font-size: 0.6em !important;
+}
+
+.bg-1 {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+ 
+.bg-2 {
+background-color: #474e5d;
+color: #ffffff;
+}
+ 
+.bg-3 {
+background-color: #ffffff;
+color: #555555;
+}
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+.container-fluid{
+  padding-bottom: 70px;
+}
+
+.carousel-inner img {
+ 
+  width: 100%; /* Set width to 100% */
+  height: 100%;
+  margin: auto;
+  min-height: 100px;
+  
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
+}
